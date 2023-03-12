@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "puppeteer": "^19.4.1",
+    "unzipper": "^0.10.11"
+  },
+  "scripts": {
+    "go": "node src/clean.js && node src/create-dirs.js && node src/download.js && node src/unzip.js && node src/browser-scrape.js && node src/process-scraped-data.js"
+  }
+}
